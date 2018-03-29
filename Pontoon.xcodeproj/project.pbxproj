@@ -1,0 +1,316 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CDD84E42206ACA9200372050 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDD84E41206ACA9200372050 /* main.cpp */; };
+		CDD84E4A206ACF3B00372050 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDD84E48206ACF3B00372050 /* Card.cpp */; };
+		CDD84E4D206AF2B300372050 /* Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDD84E4B206AF2B300372050 /* Deck.cpp */; };
+		CDD84E50206C07D000372050 /* Actor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDD84E4E206C07D000372050 /* Actor.cpp */; };
+		CDD84E53206C0DFC00372050 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDD84E51206C0DFC00372050 /* Game.cpp */; };
+		CDD84E56206C117100372050 /* Player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDD84E54206C117100372050 /* Player.cpp */; };
+		CDD84E59206C120F00372050 /* Bank.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDD84E57206C120F00372050 /* Bank.cpp */; };
+		CDD84E5C206C148300372050 /* Log.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDD84E5A206C148300372050 /* Log.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDD84E3C206ACA9200372050 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CDD84E3E206ACA9200372050 /* Pontoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Pontoon; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDD84E41206ACA9200372050 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CDD84E48206ACF3B00372050 /* Card.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		CDD84E49206ACF3B00372050 /* Card.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Card.hpp; sourceTree = "<group>"; };
+		CDD84E4B206AF2B300372050 /* Deck.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Deck.cpp; sourceTree = "<group>"; };
+		CDD84E4C206AF2B300372050 /* Deck.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Deck.hpp; sourceTree = "<group>"; };
+		CDD84E4E206C07D000372050 /* Actor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Actor.cpp; sourceTree = "<group>"; };
+		CDD84E4F206C07D000372050 /* Actor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Actor.hpp; sourceTree = "<group>"; };
+		CDD84E51206C0DFC00372050 /* Game.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
+		CDD84E52206C0DFC00372050 /* Game.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		CDD84E54206C117100372050 /* Player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Player.cpp; sourceTree = "<group>"; };
+		CDD84E55206C117100372050 /* Player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Player.hpp; sourceTree = "<group>"; };
+		CDD84E57206C120F00372050 /* Bank.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Bank.cpp; sourceTree = "<group>"; };
+		CDD84E58206C120F00372050 /* Bank.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Bank.hpp; sourceTree = "<group>"; };
+		CDD84E5A206C148300372050 /* Log.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Log.cpp; sourceTree = "<group>"; };
+		CDD84E5B206C148300372050 /* Log.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Log.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDD84E3B206ACA9200372050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CDD84E35206ACA9200372050 = {
+			isa = PBXGroup;
+			children = (
+				CDD84E40206ACA9200372050 /* Pontoon */,
+				CDD84E3F206ACA9200372050 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDD84E3F206ACA9200372050 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDD84E3E206ACA9200372050 /* Pontoon */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDD84E40206ACA9200372050 /* Pontoon */ = {
+			isa = PBXGroup;
+			children = (
+				CDD84E41206ACA9200372050 /* main.cpp */,
+				CDD84E48206ACF3B00372050 /* Card.cpp */,
+				CDD84E49206ACF3B00372050 /* Card.hpp */,
+				CDD84E4B206AF2B300372050 /* Deck.cpp */,
+				CDD84E4C206AF2B300372050 /* Deck.hpp */,
+				CDD84E4E206C07D000372050 /* Actor.cpp */,
+				CDD84E4F206C07D000372050 /* Actor.hpp */,
+				CDD84E54206C117100372050 /* Player.cpp */,
+				CDD84E55206C117100372050 /* Player.hpp */,
+				CDD84E57206C120F00372050 /* Bank.cpp */,
+				CDD84E58206C120F00372050 /* Bank.hpp */,
+				CDD84E51206C0DFC00372050 /* Game.cpp */,
+				CDD84E52206C0DFC00372050 /* Game.hpp */,
+				CDD84E5A206C148300372050 /* Log.cpp */,
+				CDD84E5B206C148300372050 /* Log.hpp */,
+			);
+			path = Pontoon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDD84E3D206ACA9200372050 /* Pontoon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDD84E45206ACA9300372050 /* Build configuration list for PBXNativeTarget "Pontoon" */;
+			buildPhases = (
+				CDD84E3A206ACA9200372050 /* Sources */,
+				CDD84E3B206ACA9200372050 /* Frameworks */,
+				CDD84E3C206ACA9200372050 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pontoon;
+			productName = Pontoon;
+			productReference = CDD84E3E206ACA9200372050 /* Pontoon */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDD84E36206ACA9200372050 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Soheil Novinfard";
+				TargetAttributes = {
+					CDD84E3D206ACA9200372050 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CDD84E39206ACA9200372050 /* Build configuration list for PBXProject "Pontoon" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDD84E35206ACA9200372050;
+			productRefGroup = CDD84E3F206ACA9200372050 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDD84E3D206ACA9200372050 /* Pontoon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDD84E3A206ACA9200372050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDD84E59206C120F00372050 /* Bank.cpp in Sources */,
+				CDD84E50206C07D000372050 /* Actor.cpp in Sources */,
+				CDD84E5C206C148300372050 /* Log.cpp in Sources */,
+				CDD84E4D206AF2B300372050 /* Deck.cpp in Sources */,
+				CDD84E56206C117100372050 /* Player.cpp in Sources */,
+				CDD84E42206ACA9200372050 /* main.cpp in Sources */,
+				CDD84E4A206ACF3B00372050 /* Card.cpp in Sources */,
+				CDD84E53206C0DFC00372050 /* Game.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDD84E43206ACA9200372050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDD84E44206ACA9200372050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDD84E46206ACA9300372050 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ3DDEUQ7K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDD84E47206ACA9300372050 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQ3DDEUQ7K;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDD84E39206ACA9200372050 /* Build configuration list for PBXProject "Pontoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD84E43206ACA9200372050 /* Debug */,
+				CDD84E44206ACA9200372050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDD84E45206ACA9300372050 /* Build configuration list for PBXNativeTarget "Pontoon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDD84E46206ACA9300372050 /* Debug */,
+				CDD84E47206ACA9300372050 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDD84E36206ACA9200372050 /* Project object */;
+}
